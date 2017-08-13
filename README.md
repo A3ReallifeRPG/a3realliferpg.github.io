@@ -20,6 +20,12 @@ Ihr findet hier wissen was unser DEV-Team für euch aufgearbeitet und bereitgest
 
 Wir wollen der Arma Community etwas zurück geben und etwas von unserem über die Jahre erlernten Wissen mit euch teilen.
 
+### Fehler !!
+
+Ihr habt einen Fehler gefunden ?
+
+Meldet ihn einfach [hier](https://github.com/A3ReallifeRPG/A3ReallifeRPG.github.io/issues) oder öffnet einen [Pull-Request](https://github.com/A3ReallifeRPG/A3ReallifeRPG.github.io/pulls) um den Fehler zu beheben.
+
 ### Warum kann ich hier nicht einfach fertige Sachen kopieren ?
 
 Wir wollen dich mit unseren Tutorials und Code-Veröffentlichungen dazu anregen ein besserer DEV zu werden und über deine Probleme nach zu denken, dazu geben wir dir Hilfen, in den wenigsten Fällen werden wir komplette fertige "Produkte" veröffentlichen die man einfach nur noch kopieren kann.
