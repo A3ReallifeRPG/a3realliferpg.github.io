@@ -28,7 +28,7 @@ Meldet ihn einfach [hier](https://github.com/A3ReallifeRPG/A3ReallifeRPG.github.
 
 ### Warum kann ich hier nicht einfach fertige Sachen kopieren ?
 
-Wir wollen dich mit unseren Tutorials und Code-Veröffentlichungen dazu anregen ein besserer DEV zu werden und über deine Probleme nach zu denken, dazu geben wir dir Hilfen, in den wenigsten Fällen werden wir komplette fertige "Produkte" veröffentlichen die man einfach nur noch kopieren kann.
+Wir wollen dich mit unseren Tutorials und Code-Veröffentlichungen dazu anregen ein besserer DEV zu werden und über deine Probleme nach zu denken, dazu geben wir dir Hilfen, in den wenigsten Fällen werden wir hier komplett fertige "Produkte" veröffentlichen, die man einfach nur noch kopieren muss, da ihr dadurch ja nichts lernt.
 
 ### Kann ich die Sachen hier einfach benutzen ?
 
