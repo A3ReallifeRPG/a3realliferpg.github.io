@@ -99,3 +99,9 @@ Das ganze jetzt noch schnell in die Krankenhaus Funktion gepackt und Tada es fun
 - Nutzt das Wiki von Bohemia, am besten in kombination mit Google oder einer anderen Suchmaschiene
   - Mit "Arma 3 FunktionXYZ" kommt ihr eigentlich immer zuerst auf den Wiki Artikel
 - Wenn ihr Fragt: Lasst euch nicht die Lösung geben sondern erklären wie man auf die Lösung kommt
+
+### Quellen/Links
+
+- Bohemia Wiki: https://community.bistudio.com/wiki/
+- ACE 3 Website: https://ace3mod.com/
+- ACE 3 GitHub: https://github.com/acemod/ACE3

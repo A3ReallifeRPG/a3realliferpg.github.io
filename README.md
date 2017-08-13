@@ -8,7 +8,7 @@ Wir sind [RealLifeRPG](https://www.realliferpg.de) und wir bieten euch seit 2014
 
 Unser DEV Team besteht aus vielen erfahrenen Scriptern, Moddern und was man sonst noch so hat.
 
-
+Bei Fragen zu dieser Seite wendet euch bitte an `contact@realliferpg.de`, bitte beachtet das wir aus Zeitgründen keine Inhaltlichen Fragen beantworten oder sonstwie Support geben können.
 
 ## F.A.Q
 
