@@ -7,6 +7,10 @@ Hier findet ihr eine Reihe verschiedener Anleitungen.
 - [Selber Denken & Probleme Lösen](tutorials/thinking)
 
 
+## Tutorials
+
+- [Lokal Testen](tutorials/local_testing)
+
 
 # Scripte
 
