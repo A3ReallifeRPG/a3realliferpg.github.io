@@ -5,11 +5,13 @@ Hier findet ihr eine Reihe verschiedener Anleitungen.
 ## Allgemein
 
 - [Selber Denken & Probleme Lösen](tutorials/thinking)
+- [Eigenen (Life) Server eröffnen ?](tutorials/life_server)
 
 
 ## Tutorials
 
-- [Lokal Testen](tutorials/local_testing)
+- [Lokal testen](tutorials/local_testing)
+- [Fehler finden](tutorials/errors)
 
 
 # Scripte
