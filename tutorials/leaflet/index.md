@@ -84,6 +84,34 @@ Erstellt einen div mit Höhe und Breite.
 
 Fertig!
 
+## Beispiele
+
+### Marker erstellen
+
+```javascript
+	var redMarker = L.icon({
+        iconUrl: 'https://husky.realliferpg.de/icons/red_marker.png',
+
+        iconSize: [48, 48],
+        iconAnchor: [24, 48],
+        popupAnchor: [0, -34]
+    });
+
+    var ArmaX = 8413.06; //Arma-X
+    var ArmaY = (15360 - 6704.25); //Map-Größe - Arma-Y
+    var m = {
+        x: (ArmaX / 15360) * 163842, // (Arma-X /Map-Größe) * Original-Höhe
+        y: (ArmaY / 15360) * 163842 // (Arma-X /Map-Größe) * Original-Breite
+    };
+    var marker = L.marker(map.unproject([m.x, m.y], map.getMaxZoom()), { //unproject
+        icon: redMarker
+    }).addTo(map);
+    marker.on('click', function(e) {
+        map.setView(e.latlng, 4);
+    });
+```
+Map-Größe ist die Ingame Größe der Map in Metern (Höhe und Breite sind gleich)
+
 Für mehr Konfigurationsmöglichkeiten etc befragt die [leaflet-docs](http://leafletjs.com/reference-1.2.0.html).
 
 ###### Downloads
