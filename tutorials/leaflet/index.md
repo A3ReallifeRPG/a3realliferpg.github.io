@@ -48,13 +48,19 @@ Die legt ihr jetzt auf einem Webserver bereit.
 ## Leaflet.js Konfiguration
  
 Ladet leaflet.js und das nötige css.
+
+```html
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha256-LcmP8hlMTofQrGU6W2q3tUnDnDZ1QVraxfMkP060ekM=" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha256-kdEnCVOWosn3TNsGslxB8ffuKdrZoGQdIdPwh7W1CsE=" crossorigin="anonymous"></script>
+```
+
  
 Erstellt einen div mit Höhe und Breite.
  
 `<div style="width: 1135px; height: 580px" id="map"></div>`
  
 ```javascript
-var sat = L.tileLayer('https://webserver.shady.cc/sat/{z}/{x}/{y}.png', {
+	var sat = L.tileLayer('https://webserver.shady.cc/sat/{z}/{x}/{y}.png', { //bzw .jpg
         minZoom: 1,
         maxZoom: 6,
         attribution: 'Eure Attribution',
