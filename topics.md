@@ -12,6 +12,7 @@ Hier findet ihr eine Reihe verschiedener Anleitungen.
 
 - [Lokal testen](tutorials/local_testing)
 - [Fehler finden](tutorials/errors)
+- [Leaflet Online Map](tutorials/leaflet)
 
 
 # Scripte
