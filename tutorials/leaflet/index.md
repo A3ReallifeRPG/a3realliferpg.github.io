@@ -1,6 +1,6 @@
-### Arma Map via Leaflet
+# Arma Map via Leaflet
 
-#### Export
+## Export
 
 Die Map als Sattelitenkarte zu exportieren ist leider direkt nicht möglich, entweder hat man Zugriff auf die Original Satmap oder klebt die einzelnen Tiles die man in der Map findet zusammen.
 
@@ -10,7 +10,7 @@ Unten als Download findet ihr die EmfToPng.exe, diese ist nichtmehr in den Arma 
 
 Jetzt kopiert ihr die .emf einfach irgendwo hin wo ihr ohne erhöhte Rechte schreiben könnt und zieht sie auf die EmfToPng.exe, so erhaltet ihr eine .png, die ihr bearbeiten könnt.
 
-#### Maptiles erstellen
+## Maptiles erstellen
 
 Installiert euch die Python-toolbox GDAL2Tiles, mit dieser könnt ihr aus einer PNG/JPEG Datei die nötigen Preview/Layerbilder erzeugen damit Leaflet sie benutzen kann und euer Bild beim Zoomen nicht ewig lädt.
 
@@ -45,7 +45,7 @@ Im Ordner /sat findet ihr nun die fertigen Tiles.
  
 Die legt ihr jetzt auf einem Webserver bereit.
  
-#### Leaflet.js Konfiguration
+## Leaflet.js Konfiguration
  
 Ladet leaflet.js und das nötige css.
  
@@ -82,7 +82,7 @@ Für mehr Konfigurationsmöglichkeiten etc befragt die [leaflet-docs](http://lea
 
 ###### Downloads
 
-[EmfToPng.exe](EmfToPng.exe)
+[EmfToPng.exe](https://github.com/A3ReallifeRPG/a3realliferpg.github.io/releases/download/EmfToPng.exe/EmfToPng.exe)
 
 ###### Quellen
 
