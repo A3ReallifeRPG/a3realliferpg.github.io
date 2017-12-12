@@ -31,4 +31,39 @@ Reponse 200 (application/json)
     - requested_at (Unix-Timestamp)
 ```
 
+### Servers
+
+```html
+GET /v1/servers
+
+Reponse 200 (application/json)
+	Array (Server)
+      - Id (Int) 
+      - ModId (Int)
+      - online (Int)
+      - appId (Int)
+      - Servername (String)
+      - IpAdresss (String)
+      - Port (Int)
+      - ServerPassword (String)
+      - Gamemode (Int)
+      - StartParameters (String)
+      - Slots (Int)
+      - Playercount (Int)
+      - Civilians (Int)
+      - Medics (Int)
+      - Cops (Int)
+      - Adac (int)
+      - Players 
+		Array (Player)
+      - Side
+		Array (Side)
+		 Array (Civ)
+		 Array (Medic)
+		 Array (Cop)
+		 Array (RAC)
+      - updated_at (Timestamp)
+    - requested_at (Unix-Timestamp)
+```
+
 (Not completed)
