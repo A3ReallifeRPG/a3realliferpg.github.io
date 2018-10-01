@@ -66,4 +66,79 @@ Reponse 200 (application/json)
     - requested_at (Unix-Timestamp)
 ```
 
-(Not completed)
+## More Methods
+
+### Servers/Log
+
+````
+GET /v1/servers/log
+````
+
+### Server/Log
+
+````
+GET /v1/server/log/{id}
+````
+
+### Server/Fuelstation
+
+`````
+GET /v1/server/fuelstations/{id}
+`````
+
+### Changelog	
+
+````
+GET /v1/changelog
+````
+
+### Teamspeaks
+
+````
+GET /v1/teamspeaks
+````
+
+### Fuelstations
+
+````
+GET /v1/fuelstations
+````
+
+### Player
+
+````
+GET /v1/player/{secret}
+````
+
+### Player/Vehicles
+
+````
+GET /v1/player/{secret}/vehicles
+````
+
+### Player/Validate
+
+````
+GET /v1/player/validate/{secret}
+````
+
+### Twitch
+
+````
+GET /v1/twitch
+````
+
+### Market
+
+````
+GET /v1/market/{server_id}
+````
+
+### Market_logs
+
+````
+GET /v1/market_logs/{server_id}/{itemname}/{backlog}
+````
+
+
+
