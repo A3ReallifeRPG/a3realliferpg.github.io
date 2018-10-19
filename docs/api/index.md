@@ -140,5 +140,20 @@ GET /v1/market/{server_id}
 GET /v1/market_logs/{server_id}/{itemname}/{backlog}
 ````
 
+### Info-Items
 
+````
+GET /v1/items
+````
 
+### Info-Items Shop
+
+````
+GET /v1/items/{shop}
+````
+
+### Info-Items Shoptypes
+
+````
+GET /v1/items/items_shoptypes
+````
