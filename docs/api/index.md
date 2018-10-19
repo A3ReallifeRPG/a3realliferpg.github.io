@@ -175,3 +175,9 @@ GET /v1/info/vehicles/{shop}
 ````
 GET /v1/info/vehicles_shoptypes
 ````
+
+### Info-Licenses Shoptypes
+
+````
+GET /v1/info/licenses
+````
