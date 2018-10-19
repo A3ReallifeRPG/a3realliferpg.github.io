@@ -181,3 +181,15 @@ GET /v1/info/vehicles_shoptypes
 ````
 GET /v1/info/licenses
 ````
+
+### Info-Houseshoptypes
+
+````
+GET /v1/info/houses
+````
+
+### Info-Buildings Shoptypes
+
+````
+GET /v1/info/buildings
+````
