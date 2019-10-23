@@ -193,3 +193,9 @@ GET /v1/info/houses
 ````
 GET /v1/info/buildings
 ````
+
+### CBS Info
+
+````
+GET /v1/cbs
+````
