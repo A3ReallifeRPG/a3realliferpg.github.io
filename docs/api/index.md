@@ -128,6 +128,18 @@ GET /v1/player/validate/{secret}
 GET /v1/twitch
 ````
 
+### Community Building System
+
+````
+GET /v1/cbs
+````
+
+### Market_All
+
+````
+GET /v1/market_all
+````
+
 ### Market
 
 ````
