@@ -128,6 +128,12 @@ GET /v1/player/validate/{secret}
 GET /v1/twitch
 ````
 
+### Twitch with Limit
+
+````
+GET /v1/twitch/{limit}
+````
+
 ### Community Building System
 
 ````
@@ -210,6 +216,12 @@ GET /v1/info/buildings
 
 ````
 GET /v1/cbs
+````
+
+### Map Markers
+
+````
+GET /v1/map_markers
 ````
 
 ### Map Markers
