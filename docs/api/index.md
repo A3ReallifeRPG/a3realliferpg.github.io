@@ -193,3 +193,9 @@ GET /v1/info/houses
 ````
 GET /v1/info/buildings
 ````
+
+### Map Markers
+
+````
+GET /v1/map_markers
+````
