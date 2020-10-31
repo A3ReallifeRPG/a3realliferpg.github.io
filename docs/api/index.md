@@ -211,3 +211,9 @@ GET /v1/info/buildings
 ````
 GET /v1/cbs
 ````
+
+### Map Markers
+
+````
+GET /v1/map_markers
+````
