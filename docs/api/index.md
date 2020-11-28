@@ -224,8 +224,3 @@ GET /v1/cbs
 GET /v1/map_markers
 ````
 
-### Map Markers
-
-````
-GET /v1/map_markers
-````
