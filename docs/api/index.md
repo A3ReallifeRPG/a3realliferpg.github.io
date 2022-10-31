@@ -103,6 +103,8 @@ Response 200 (application/json)
 
 ## Online Banking
 
+Note: These endpoints are not officially supported and my change without notice.
+
 ### Transactions
 
 **Header**
