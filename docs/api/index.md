@@ -245,6 +245,7 @@ Response 200 (application/json)
 ---
 
 ## Twitch
+-> Deprecated after Twitch API change
 
 #### Twitch
 
