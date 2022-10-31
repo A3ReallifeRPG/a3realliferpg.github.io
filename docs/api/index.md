@@ -124,7 +124,7 @@ Response 200 (application/json)
 
 ## Market
 
-#### Serverwide market
+#### Global market (all servers)
 
 ```
 GET /v1/market_all
