@@ -2,19 +2,20 @@
 
 ## Categories
 
-1. [Mod](#mod)
-2. [Server](#server)
-3. [Player](#player)
-4. [Licenses](#licenses)
-5. [Companies](#companies)
-6. [Market](#market)
-7. [Items & itemshops](#items-itemshops)
-8. [Vehicles & vehicleshops](#vehicles-vehicleshops)
-9. [Community Building System](#community-building-system)
-10. [Houses & buildings](#houses-buildings)
-11. [Fuelstations](#fuelstations)
-12. [Twitch](#twitch)
-13. [Other](#other)
+- [Mod](#mod)
+- [Server](#server)
+- [Player](#player)
+- [Online Banking](#online-banking)
+- [Licenses](#licenses)
+- [Companies](#companies)
+- [Market](#market)
+- [Items & itemshops](#items-itemshops)
+- [Vehicles & vehicleshops](#vehicles-vehicleshops)
+- [Community Building System](#community-building-system)
+- [Houses & buildings](#houses-buildings)
+- [Fuelstations](#fuelstations)
+- [Twitch](#twitch)
+- [Other](#other)
 
 ---
 
@@ -96,6 +97,48 @@ Response 200 (application/json)
 ```
 GET /v1/player/validate/{secret}
 Response 200 (application/json)
+```
+
+---
+
+## Online Banking
+
+### Transactions
+
+**Header**
+
+| Header       | Value                                   |
+| ------------ | --------------------------------------- |
+| `set-cookie` | `XSRF-TOKEN={XSRF-TOKEN}`               |
+| `set-cookie` | `laravel_session={LARAVEL_SESSION_KEY}` |
+
+```
+POST info.realliferpg.de/banking/{IBAN}/data
+Response 200 (application/json)
+```
+
+### Transfer money
+
+**Header**
+
+| Header       | Value                                   |
+| ------------ | --------------------------------------- |
+| `set-cookie` | `XSRF-TOKEN={XSRF-TOKEN}`               |
+| `set-cookie` | `laravel_session={LARAVEL_SESSION_KEY}` |
+
+**Body**
+
+| Key      | Value              |
+| -------- | ------------------ |
+| `_token` | `{TRANSFER_TOKEN}` |
+| `type`   | `init_transaction` |
+| `amount` | `balance`          |
+| `iban`   | `{RECEIVER_IBAN}`  |
+| `info`   | `{INFO}`           |
+
+```
+POST info.realliferpg.de/banking/{IBAN}
+Response 200 (application/html)
 ```
 
 ---
