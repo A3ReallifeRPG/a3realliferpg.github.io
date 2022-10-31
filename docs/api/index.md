@@ -141,7 +141,7 @@ Response 200 (application/json)
 #### Market logs
 
 ```
-GET /v1/market_logs/{server_id}/{itemname}/{backlog}
+GET /v1/market_logs/{server_id}/{itemname}/{backlog_count}
 Response 200 (application/json)
 ```
 
